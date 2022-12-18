@@ -78,8 +78,12 @@ body {
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
-    margin-left:80px;
+    margin-right:950px;
     color: #000;
+}
+
+.container img{
+    margin-left:30px
 }
 
 .navbar-brand:hover {
@@ -233,4 +237,34 @@ body {
 .esp-container img{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+
+div#cafe {
+
+    position: relative;
+
+}
+
+.name {
+
+    position: absolute;
+    top: 60%;
+    left: 65px;
+    text-transform: uppercase;
+    color: white;
+    width: 400px;
+    background: #00000094;
+    padding: 10px;
+    text-align: center;
+    font: bold 30px/40px Helvetica, Sans-Serif;
+}
+
+.elegant img{
+    margin-top:20px;
+}
+
+.elegant img:hover{
+    opacity: 0.9;
+    transition: all 0.4s ease-in-out;
 }
