@@ -250,6 +250,10 @@ body {
     margin-bottom: 20px;
 }
 
+.elegant-bg{
+    display: flex;
+    justify-content: center;
+}
 
 div#cafe {
 
